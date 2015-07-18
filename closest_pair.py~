@@ -1,0 +1,15 @@
+#!/usr/bin/python
+# Given a set of points, find closest Euclidean pair
+
+oneD_points = [4,9,21,1,200,22]
+
+def closest_1D(points):
+    if len(point) == 1:
+        return points[0]
+    i = 1
+    closest_distance = points[len(points)-1]
+    curr_point = points[i]
+    for prev_point in points:
+        if curr_point - prev_point < closest_distance:
+            
+        
