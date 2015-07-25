@@ -6,6 +6,7 @@
 #	myList = f.readlines()
 
 # myList = []
+# need to add multi splits
 
 f = open("IntegerArray.txt")
 myList = list()
