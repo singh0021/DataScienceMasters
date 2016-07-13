@@ -1,6 +1,6 @@
 # This script uses quicksort to sort an array of integers
 # and counts the number of comparisons needed to do so
-
+# This is downloaded by me
 f = open("Quicksort.txt")
 myList = list()
 for line in f:
